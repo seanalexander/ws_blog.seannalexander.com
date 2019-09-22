@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on blog</title>
+    <link>http://blog.seannalexander.com/tags/</link>
+    <description>Recent content in Tags on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.seannalexander.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>azure</title>
+      <link>http://blog.seannalexander.com/tags/azure/</link>
+      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.seannalexander.com/tags/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>choco</title>
+      <link>http://blog.seannalexander.com/tags/choco/</link>
+      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.seannalexander.com/tags/choco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>k8s</title>
+      <link>http://blog.seannalexander.com/tags/k8s/</link>
+      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.seannalexander.com/tags/k8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>http://blog.seannalexander.com/tags/kubernetes/</link>
+      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.seannalexander.com/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metrics</title>
+      <link>http://blog.seannalexander.com/tags/metrics/</link>
+      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.seannalexander.com/tags/metrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>minikube</title>
+      <link>http://blog.seannalexander.com/tags/minikube/</link>
+      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.seannalexander.com/tags/minikube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>performance</title>
+      <link>http://blog.seannalexander.com/tags/performance/</link>
+      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.seannalexander.com/tags/performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>powershell</title>
+      <link>http://blog.seannalexander.com/tags/powershell/</link>
+      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.seannalexander.com/tags/powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>categories</title>
+      <link>http://blog.seannalexander.com/tags/categories/</link>
+      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.seannalexander.com/tags/categories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tags</title>
+      <link>http://blog.seannalexander.com/tags/tags/</link>
+      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.seannalexander.com/tags/tags/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
