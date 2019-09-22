@@ -1,9 +1,16 @@
 baseURL = "https://blog.seannalexander.com/"
 languageCode = "en-us"
 title = "blog"
-theme = "hyde-hyde"
+theme = "personal-web"
 highlightjs = true
 highlightjsstyle="Bash"
+
+copyright="© Sean Alexander"
+googleAnalytics = ""
+enableEmoji=true
+enableRobotsTXT=true
+pygmentsUseClasses=true
+pygmentsCodeFences=true
 
 [Menus]
   main = [
@@ -12,9 +19,9 @@ highlightjsstyle="Bash"
   ]
 
 [params.social]
-	twitter = "seannalexander"
-	github = "seannalexander"
-  gravatar = "self@seannalexander.com"
+	twitter = "https://twitter.com/seannalexander"
+	github = "https://github.com/seanalexander"
+  linkedin = "https://www.linkedin.com/in/seannalexander"
 
 [params]
   description = "Performance, Scale & Site Reliability."
@@ -22,9 +29,44 @@ highlightjsstyle="Bash"
   twitterUsername = "seannalexander"
   tagline = "Performance, Scale & Site Reliability."
 
+  breadcrumb = true
+  accentColor = "#FD3519"
+  mainSections = ['portfolio'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
 
-  [[menu.main]]
-    name = "Portfolio"
-    identifier = "portfolio"
-    weight = 123
-    url = "/portfolio/"
+[params.notFound]
+  gopher = "/images/gopher.png" # checkout https://gopherize.me/
+  h1 = 'Bummer!'
+  p = "It seems that this page doesn't exist."
+
+[params.sidebar]
+  backgroundImage = '' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
+  gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
+  logo = "" # - default "/images/edna-west.jpg"
+
+[params.assets]
+  favicon = ""
+  customCSS = ""
+
+[params.intro]
+  main = "Seann :penguin:"
+  sub = "Performance and Scale"
+
+[taxonomies]
+  design = "designs"
+  tech = "techs"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
