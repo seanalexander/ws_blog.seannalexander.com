@@ -1,7 +1,7 @@
 baseURL = "http://blog.seannalexander.com/"
 languageCode = "en-us"
 title = "blog"
-theme = "journal"
+theme = "hyde-hyde"
 highlightjs = true
 highlightjsstyle="Bash"
 
