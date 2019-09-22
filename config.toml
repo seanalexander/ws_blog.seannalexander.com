@@ -1,0 +1,30 @@
+baseURL = "http://blog.seannalexander.com/"
+languageCode = "en-us"
+title = "blog"
+theme = "journal"
+highlightjs = true
+highlightjsstyle="Bash"
+
+[Menus]
+  main = [
+      {Name = "performance", URL = "/performance/"},
+      {Name = "scale", URL = "/scale/"}
+  ]
+
+[params.social]
+	twitter = "seannalexander"
+	github = "seannalexander"
+  gravatar = "self@seannalexander.com"
+
+[params]
+  description = "Performance, Scale & Site Reliability."
+  githubUsername = "seanalexander"
+  twitterUsername = "seannalexander"
+  tagline = "Performance, Scale & Site Reliability."
+
+
+  [[menu.main]]
+    name = "Portfolio"
+    identifier = "portfolio"
+    weight = 123
+    url = "/portfolio/"
