@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tags on blog</title>
-    <link>http://blog.seannalexander.com/tags/tags/</link>
+    <link>https://blog.seannalexander.com/tags/tags/</link>
     <description>Recent content in tags on blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.seannalexander.com/tags/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.seannalexander.com/tags/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Project P1&#39;s Title</title>
-      <link>http://blog.seannalexander.com/portfolio/p1/</link>
+      <link>https://blog.seannalexander.com/portfolio/p1/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.seannalexander.com/portfolio/p1/</guid>
+      <guid>https://blog.seannalexander.com/portfolio/p1/</guid>
       <description>Here is a longer summary of the project. You can write as long as you wish.</description>
     </item>
     
