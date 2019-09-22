@@ -6,6 +6,7 @@
     <description>Recent content on blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>© Sean Alexander</copyright>
     <lastBuildDate>Sat, 21 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.seannalexander.com/index.xml" rel="self" type="application/rss+xml" />
@@ -30,15 +31,6 @@
  Clone the azure-metrics Go into the repo  Corresponding pseudo commands:
 git clone https://github.com/seanalexander/azure-metrics cd azure-metrics &amp;gt; Press ctrl+c to stop  Once you&amp;rsquo;ve gotten here, follow along the rest of this page on your local build.
 Step 2. Have fun The best way to learn something is to play with it.</description>
-    </item>
-    
-    <item>
-      <title>Project P1&#39;s Title</title>
-      <link>https://blog.seannalexander.com/portfolio/p1/</link>
-      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.seannalexander.com/portfolio/p1/</guid>
-      <description>Here is a longer summary of the project. You can write as long as you wish.</description>
     </item>
     
   </channel>
