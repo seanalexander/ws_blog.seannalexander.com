@@ -1,4 +1,4 @@
-baseURL = "http://blog.seannalexander.com/"
+baseURL = "https://blog.seannalexander.com/"
 languageCode = "en-us"
 title = "blog"
 theme = "hyde-hyde"
