@@ -1,0 +1,4 @@
+baseURL = "https://blog.seannalexander.com/"
+languageCode = "en-us"
+title = "Performance and Scale"
+theme = "ananke"
