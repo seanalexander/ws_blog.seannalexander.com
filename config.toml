@@ -1,33 +1,74 @@
-title = "performance & scale"
-baseURL = "https://blog.seannalexander.com"
-languageCode = "en-us"
-theme = "ananke"
-themesDir = "./themes/"
+## Basic Configuration
+baseurl = "https://blog.seannalexander.com/"
+languageCode = "en"
 
-MetaDataFormat = "yaml"
-DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
+# title = ""
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
 enableRobotsTXT = true
 
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
+summarylength = 50
 
+#paginate = 5
+
+## Site Settings
 [params]
-  favicon = ""
-  description = "seannalexander"
-  facebook = ""
-  twitter = "https://twitter.com/seannalexander"
-  instagram = ""
-  youtube = ""
-  github = "https://github.com/seanalexander/"
-  gitlab = ""
-  linkedin = ""
-  mastodon = ""
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-black"
-  #featured_image = "/images/gohugo-default-sample-hero-image.jpg"
-  recent_posts_number = 2
+    author = "Seann Alexander"
+    title = "perf @ seann"
+    # description = "..."
+    authorimage = "/img/hugo.png"
+    dateformat = "Jan 2, 2006"
+
+    # sidebar, copyright & license
+    copyright = "Seann Alexander"
+    since = 2019
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = false
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
+    
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
+
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
+
+## Social Accounts
+[params.social]
+    github = "seanalexander"
+    #instagram = "<username>"
+    #xing = "<username>"
+    linkedin = "seanalexander"
+    twitter = "seanalexander"
+    #facebook = "<username>"
+    #stackoverflow = "<username>"
+    #telegram = "<username>"
+    # orcid = "<xxxx-xxxx-xxxx-xxxx>"
+    #email = "your-email@example.com"
+    gravatar = "myself@seannalexander.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "Portfolio"
+    identifier = "portfolio"
+    weight = 200
+    url = "/portfolio/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
