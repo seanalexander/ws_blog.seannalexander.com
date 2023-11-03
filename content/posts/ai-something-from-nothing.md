@@ -2,7 +2,7 @@
 linktitle: AI - Something from Nothing
 title: AI - Creating Insights from Raw Data
 date: 2023-11-03T17:00:00-04:00
-author: "Sean Alexander"
+author: "Seann Alexander"
 categories: [ "AI", "Data Analysis" ]
 tags: ["machine learning", "data mining", "predictive analytics", "deep learning"]
 weight: 5
