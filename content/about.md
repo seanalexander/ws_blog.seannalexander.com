@@ -1,6 +1,6 @@
 +++
 title = "About Seann Alexander"
-date = "2020-06-09"
+date = "2023-11-03"
 +++
 
 Follow me on Twitter [@seannalexander](https://twitter.com/seannalexander)
